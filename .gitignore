@@ -1,0 +1,41 @@
+#Executables
+*.out
+ft_ssl_sanitize
+ft_ssl_valgrind
+srcs/.ft*
+
+#Libraries
+/libft/libft.a
+libftprintf.a
+*libft.a
+
+#Folders
+/test*
+*dSYM/
+libft/*
+/misc_files
+
+#dot files
+._*
+
+#Object Files
+*.o
+/objects
+
+#Misc files
+debug_*
+*.pdf
+tests.c
+.DS_Store
+*.py
+*.swp
+*.swo
+*.s*
+*.txt
+*.sh
+.nfs*
+*.gch
+pft/
+*main.c
+flip_some_hipsum
+some_hipster_ipsum*
