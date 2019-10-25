@@ -1,6 +1,3 @@
-#!/bin/bash
-
+# 01 [COMMAND]
 ifconfig | awk '/:/ {print $1}'
-
-
 #echo "1: " | awk -F  ":" '/1/ {print $1}'
