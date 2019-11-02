@@ -1,0 +1,2 @@
+# 02a [COMMAND] Identify and display the Ethernet interface characteristics: (a) Identify broadcast address 
+ifconfig en0 | grep "broadcast " | awk '{print $6}'
