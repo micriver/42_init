@@ -1,4 +1,5 @@
-# 02a [COMMAND] Identify and display the Ethernet interface characteristics: (a) Identify broadcast address 
+# 02a [COMMAND] 
+# Identify and display the Ethernet interface characteristics: (a) Identify broadcast address 
 ifconfig en0
 echo ''
 echo 'Broadcast address is:'

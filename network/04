@@ -1,0 +1,6 @@
+# 04 [COMMAND] 
+# Identifiy the default gateway in the routing table
+netstat -nr | grep -m 1 default
+
+# A routing table is a map for the router. For a network router to know where to send packets of data it receives, it uses a routing table. 
+# For hosts on a local area network, the Gateway field in the default route is set to the system which has a direct connection to the Internet.

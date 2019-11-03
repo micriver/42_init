@@ -1,2 +1,3 @@
-# 01 [COMMAND] list of the network interfaces of the machine without displaying any detail for these interfaces
+# 01 [COMMAND] 
+# list the network interfaces of the machine without displaying any detail for these interfaces
 ifconfig -l
