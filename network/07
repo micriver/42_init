@@ -1,0 +1,5 @@
+# 07 [COMMAND] 
+# Query an external DNS server on the slash16.org domain name (ie. : google 8.8.8.8)
+dig @8.8.8.8 slash16.org
+
+# Performing DNS lookup (in this case, slash16.org) is being done using google's nameserver by specifying using the @ symbol and it's IP address.

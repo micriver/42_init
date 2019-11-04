@@ -1,0 +1,4 @@
+# 10 [COMMAND] Identify the network devices between your computer and the slash16.org domain
+echo 'There are certain networks that do not accept the packet type sent by the traceroute command, resulting in a timeout when requesting shown as "* * *"'
+echo ''
+traceroute slash16.org
