@@ -30,9 +30,7 @@ tests.c
 *.py
 *.swp
 *.swo
-*.s*
 *.txt
-*.sh
 .nfs*
 *.gch
 pft/
