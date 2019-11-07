@@ -1,0 +1,4 @@
+# 14 [DEDUCTION] What file contains the local DNS entries?
+echo 'The file listing the local DNS entries is: /etc/hosts'
+
+# In the absence of a domain name server, any network program on your system consults this file to determine the IP address that corresponds to a host name.

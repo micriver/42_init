@@ -1,5 +1,5 @@
-# 11 [DEDUCTION]
-# Use the output of the previous command to find the name and IP address of the device that makes the link between you (local network) and the outside world
+# 11 [DEDUCTION] Use the output of the previous command to find the name and IP address of the device that makes the link between you (local network) and the outside world
+
 echo 'Using the command, "traceroute slash16.org", I was able to deduce that the device named NAT (with an IP of 10.90.1.11) represents the device that makes the link between the local network and the outside world. 
 
-The NAT converts the private IP addresses used in our network to a public one for use over the remainder of the route.'
+The NAT converts the private IP addresses used in our network to a public registered one for access to the public internet.'

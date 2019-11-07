@@ -1,0 +1,3 @@
+# 13 [OUTPUT] Thanks to the previous question and the reverse DNS find the name of your host
+echo 'Output for the command: host `hostname` | cut -c 1-19'
+host `hostname` | cut -c 1-19

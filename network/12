@@ -1,0 +1,5 @@
+# 12 [COMMAND] Find the IP that was assigned to you by dhcp server
+host `hostname`
+
+# DHCP is located in your Wifi/ADSL/GPON Router to facilitate addressing of connected devices. It also gives each host on the network a leased IP address, the subnet mask, and the gateway address.
+# The host command is a DNS lookup utility and it can also be used to perform reverse lookups for local network troubleshooting.
