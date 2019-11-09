@@ -38,6 +38,28 @@ do
 	fi
 
 done
+for file in ./system/*
+do
+	if head -n 1 $file | grep -q 'COMMAND'
+	then printf ${BLUE} && head -2 $file && printf ${NC} &&  tail -n +3 $file
+		printf "\n"
+	
+	elif head -n 1 $file | grep -q 'OUTPUT'
+	then printf ${GREEN} && head -2 $file && printf ${NC} &&  tail -n +3 $file
+		printf "\n"
+	
+	elif head -n 1 $file | grep -q 'DEDUCTION'
+	then printf ${RED} && head -2 $file && printf ${NC} &&  tail -n +3 $file
+		printf "\n"
+	
+	elif head -n 1 $file | grep -q 'SCRIPT'
+	then printf ${YELLOW} && head -2 $file && printf ${NC} &&  tail -n +3 $file
+		printf "\n"
+	
+	else cat $file
+	fi
+
+done
 for file in ./scripts/*
 do
 	if head -n 1 $file | grep -q 'COMMAND'
@@ -61,21 +83,3 @@ do
 	fi
 
 done
-# for file in ./system/*
-# do
-# 	if head -n 1 $file | grep -q 'COMMAND'
-# 	then printf ${BLUE} && head -2 $file && printf ${NC} &&  tail -n +3 $file
-# 	
-# 	elif head -n 1 $file | grep -q 'OUTPUT'
-# 	then printf ${GREEN} && head -2 $file && printf ${NC} &&  tail -n +3 $file
-# 	
-# 	elif head -n 1 $file | grep -q 'DEDUCTION'
-# 	then printf ${RED} && head -2 $file && printf ${NC} &&  tail -n +3 $file
-# 	
-# 	elif head -n 1 $file | grep -q 'SCRIPT'
-# 	then printf ${YELLOW} && head -2 $file && printf ${NC} &&  tail -n +3 $file
-# 	
-# 	else cat $file
-# 	fi
-# 
-# done

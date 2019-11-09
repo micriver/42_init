@@ -1,0 +1,3 @@
+# 02 [COMMAND] What command can you use to rename your system?
+echo 'hostname'
+echo 'usage: hostname <new name>'
