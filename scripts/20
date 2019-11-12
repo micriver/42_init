@@ -1,0 +1,4 @@
+# 20 [COMMAND] List all existing users on the VM
+cat /etc/passwd
+
+# /etc/passwd file contains one line for each user account

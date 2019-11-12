@@ -1,3 +1,2 @@
-# 03 [COMMAND] 
-# Identify the MAC address of the Wi-Fi card
+# 03 [COMMAND] Identify the MAC address of the Wi-Fi card
 ifconfig en1 | grep -m 1 ether | awk '{print $2}'

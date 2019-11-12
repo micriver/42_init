@@ -1,5 +1,4 @@
-# 08 [DEDUCTION]
-# Find the provider of slash16.org
+# 08 [DEDUCTION] Find the provider of slash16.org
 echo 'Amazon Web Services is The provider for the domain name, slash16.org'
 
 # With 'whois slash16.org' and reading through the output, the nameserver lines list 'ns-144.awsdns-18.com' as the providers. AWS is Amazon Web Services

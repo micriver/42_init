@@ -1,7 +1,7 @@
 # 15 [DEDUCTION] Make the intra.42.fr address reroute to 46.19.122.85
 cat /etc/hosts
-echo 'In order to alter the hosts file here at 42, we need sudo access. However, in order to Make the intra.42.fr address reroute to 46.19.122.85,'
-echo 'you are required to manually enter a record for that redirection. After that has been added, whenever intra.42.fr is typed into search bar,'
+echo 'In order to alter the hosts files on the boxes here at 42, to make the intra.42.fr address reroute to 46.19.122.85, Id need sudo access.'
+echo 'You are required to manually enter a record in the hosts file for that redirection to occur. After it has been added, whenever intra.42.fr is typed into search bar,'
 echo 'the user will be redirected to whatever page is at that IP address instead of intra.'
 
 # Your host file contains information on where you designate certain DNS names to go to, or in other words, DNS settings to resolve IP addresses.

@@ -1,5 +1,4 @@
-# 02b [COMMAND] 
-# Identify all IP adresses which are part of the same subnet
+# 02b [COMMAND] Identify all IP adresses which are part of the same subnet
 arp -a | grep e1 | awk '{print $2}'
 
 # The arp (Address Resolution Protocol) command sends a broacast message to all the available computers on the local network. Using the arp packet information, the recieving computers will add the sending computer's IP and MAC address information to their ARP table. The sending computer will reference the IP address in its broadcast message requesting that particular node's MAC address and that's how they begin to communicate. 
