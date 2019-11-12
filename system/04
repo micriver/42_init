@@ -1,2 +1,4 @@
 # 04 [COMMAND] What command gives you the time since your system was last booted?
 who -b
+
+# Alternatively, you can use the "uptime" command to show the LENGTH of your session since boot

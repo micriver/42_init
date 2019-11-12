@@ -1,0 +1,3 @@
+# 23 [DEDUCTION] Explain how connect yourself as new user. (With graphic session and ssh session)
+echo 'During a graphical session, (a session on your bash terminal), you can connect yourself as a new user using the su [username], or the, switch user command'
+echo 'During an ssh session, you can connect yourself as a user with the ssh <username@ipaddress> command'

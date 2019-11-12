@@ -1,2 +1,4 @@
 # 05 [COMMAND] Name the command that determines the state of the SSH service
-ps aux | grep sshd
+service ssh status
+
+# must be logged in as the root user

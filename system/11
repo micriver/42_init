@@ -1,0 +1,4 @@
+# 11 [COMMAND] Name the command that displays the available space left and used on the system in an humanly understandable way
+df -h
+
+# Using ‘-h‘ parameter with (df -h) will show the file system disk space statistics in “human readable” format, means it gives the details in bytes, megabytes, and gigabyte.

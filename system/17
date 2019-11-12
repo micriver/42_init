@@ -1,0 +1,5 @@
+# 17 [COMMAND] Find the command that allows you to connect via ssh on the VM.(In parallel with the graphic session)
+ssh -p 2202 michaelrivera@127.0.0.1
+echo 'you must initiatialize the ssh service using service ssh start, prior to running the command on your host OS terminal'
+
+# The (p) flag is to specify a port, choosing a highway lane to send data through, so that malicious actors don't try to listen in. The ip address is the local IP or the loopback interface ip address for network testing within the same card.

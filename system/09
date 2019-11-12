@@ -1,0 +1,6 @@
+# 09 [COMMAND] What command lets you know who is connected to the System?
+who
+
+# The who command shows information about users who are currently logged in
+# The w command shows information about the users currently on the machine, and their processes
+# The users command shows the login names of the users currently on the system, in sorted order, space separated, on a single line. It reads all information from /var/run/utmp file.

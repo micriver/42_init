@@ -1,0 +1,5 @@
+# 14 [COMMAND] Run the ‘tail -f /var/log/syslog‘ command in background
+tail -f /var/log/syslog &
+
+# the ampersand sign runs the command in the background and frees up the terminal so that you can do other things
+# The kill command along with its PID is used to terminate the process. It can be verified with (ps) or (top) commands

@@ -1,0 +1,4 @@
+# 15 [COMMAND] Find the command that kills the background command’s process
+kill
+
+# The kill command terminates a signal or a process

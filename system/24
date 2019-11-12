@@ -1,0 +1,2 @@
+# 24 [COMMAND] Find the command that list all packages
+dpkg-query -l

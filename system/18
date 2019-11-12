@@ -1,0 +1,12 @@
+# 18 [COMMAND] Find the command that kills ssh service
+pkill ssh
+echo 'pkill ssh'
+echo 'OR'
+echo 'ps ax | grep sshd; kill <pid>'
+echo 'OR'
+echo 'service ssh stop'
+echo 'OR'
+echo '/etc/init.d/sshd stop'
+echo 'You must look for the PID of the currently running processes with the process status command, then run the kill command followed by the ssh PID'
+
+# The service command is used to run a System V init script. Usually all system V init scripts are stored in /etc/init.d directory and service command can be used to start, stop, and restart the daemons and other services under Linux. All scripts in /etc/init.d accepts and supports at least the start, stop, and restart commands.

@@ -1,0 +1,3 @@
+# 16 [DEDUCTION] Find the service which makes it possible to run specific tasks following a regular schedule
+echo 'Crontab is the service that lets you schedule tasks to run at a certain time or recurring intervals'
+echo 'New cronjobs are written with crontab -e.'

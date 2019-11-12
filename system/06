@@ -1,0 +1,4 @@
+# 06 [COMMAND] Name the command that reboots the SSH service
+service ssh resart
+
+# alternatively, you can use /etc/init.d/ssh restart

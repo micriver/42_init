@@ -1,0 +1,4 @@
+# 10 [COMMAND] Name the command that lists the partition tables of drives
+lsblk
+
+# lists all the block devices of your system along with their logical partitions

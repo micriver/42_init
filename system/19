@@ -1,0 +1,4 @@
+# 19 [COMMAND] List all services which are started at boot time and name this kind of services
+systemctl -at service
+
+# systemctl is the central management utility that controls the systemd system, manages the services and examine the system state
