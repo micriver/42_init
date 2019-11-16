@@ -9,7 +9,6 @@
 
 RED='\e[38;5;197m'
 BLDBLUE='\e[36;1;38m'
-# BLUE='\e[36;1;8;38m'
 BLUE='\e[38;5;38m'
 GREEN='\e[38;5;76m'
 YELLOW='\e[38;5;220m'
@@ -26,7 +25,7 @@ do
 		printf "\n"
 	
 	elif head -n 1 $file | grep -q 'DEDUCTION'
-	then printf ${RED} && head -2 $file && printf ${NC} &&  tail -n +3 $file
+	then printf ${RED} && head -2 $file && printf ${NC} && tail -n +3 $file
 		printf "\n"
 	
 	elif head -n 1 $file | grep -q 'SCRIPT'
